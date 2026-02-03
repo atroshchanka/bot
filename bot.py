@@ -8,7 +8,7 @@ DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
 STEAM_KEY = os.getenv("STEAM_KEY")
 APP_ID = "1304930"  # The Outlast Trials
 
-CHANNEL_ID = 1466054963187941406  # ID канала куда менять название
+CHANNEL_ID = os.getenv("CHANNEL_ID")
 
 intents = discord.Intents.default()
 bot = discord.Client(intents=intents)
